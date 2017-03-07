@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/mm_market_category"
+        android:title="Market Category...">
+				<menu>
+					<item
+						android:id="@+id/mm_sub_agric"
+						android:title="Agricultural"
+						/>
+					<item
+						android:id="@+id/mm_sub_metal"
+						android:title="Metal"
+					/>
+					<item
+						android:id="@+id/mm_sub_energy"
+						android:title="Energy"
+					/>
+				</menu>
+		</item>
+	<item
+		android:id="@+id/mm_profile"
+		android:title="Profile"/>
+	<item
+		android:id="@+id/mm_about"
+		android:title="À propos"/>
+	<item
+		android:id="@+id/mm_reset"
+		android:title="Reset"/>
+    
+</menu>

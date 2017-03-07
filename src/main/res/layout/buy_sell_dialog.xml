@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TableLayout
+		android:shrinkColumns="*"
+		android:stretchColumns="*"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Buy or Sell"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:layout_span="3"
+				android:gravity="center"
+				android:textStyle="bold|italic"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Product:"
+				android:layout_width="wrap_content"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Beans"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_product"
+				android:layout_span="2"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Quantity:"
+				android:layout_width="wrap_content"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_qty"
+				android:layout_span="2"
+				android:gravity="right"
+				android:singleLine="true"
+				android:inputType="number"
+				android:lines="1"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Price:"
+				android:layout_width="wrap_content"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_price"
+				android:layout_span="2"
+				android:gravity="right"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Total:"
+				android:layout_width="wrap_content"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_total"
+				android:layout_span="2"
+				android:gravity="right"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<Button
+				android:layout_height="wrap_content"
+				style="?android:attr/buttonStyleSmall"
+				android:text="Buy"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_buy"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				style="?android:attr/buttonStyleSmall"
+				android:text="Sell"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_sell"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				style="?android:attr/buttonStyleSmall"
+				android:text="Cancel"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_cancel"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Available stock:"
+				android:layout_width="wrap_content"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_span="2"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_av_stock"
+				android:gravity="right"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="Available funds:"
+				android:layout_width="wrap_content"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="0"
+				android:layout_span="2"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_av_funds"
+				android:gravity="right"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_span="3"
+				android:layout_width="wrap_content"
+				android:id="@+id/bsd_notif"
+				android:hint="info..."/>
+
+		</TableRow>
+
+	</TableLayout>
+
+</LinearLayout>
+

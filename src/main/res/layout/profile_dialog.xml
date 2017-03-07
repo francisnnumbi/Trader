@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical">
+
+	<GridLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:columnCount="3"
+		android:rowCount="3">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="PROFILE"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_column="1"
+			android:layout_row="0"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Name:"
+			android:layout_width="wrap_content"
+			android:layout_column="0"
+			android:layout_row="1"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:layout_width="wrap_content"
+			android:id="@+id/pf_user"
+			android:hint="username"
+			android:layout_column="1"
+			android:layout_columnSpan="2"
+			android:layout_row="1"
+			android:singleLine="true"
+			android:lines="1"
+			android:inputType="textPersonName"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="Update"
+			android:layout_width="wrap_content"
+			android:id="@+id/pf_btn_update"
+			android:layout_column="1"
+			android:layout_row="2"
+			android:layout_gravity="right"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="Cancel"
+			android:layout_width="wrap_content"
+			android:id="@+id/pf_btn_cancel"
+			android:layout_column="2"
+			android:layout_row="2"/>
+
+	</GridLayout>
+
+</LinearLayout>
+

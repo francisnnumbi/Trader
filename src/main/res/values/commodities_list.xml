@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+		<string-array name="agricultural">
+			<item>Wheat</item>
+			<item>Corn</item>
+			<item>Sugar</item>
+			<item>Soybeans</item>
+			<item>Soy Oil</item>
+			<item>Soy Meal</item>
+			<item>Oj Fut</item>
+			<item>Coffee</item>
+			<item>Cocoa</item>
+			<item>Rough Rice</item>
+			<item>Oats</item>
+			<item>Milk</item>
+			<item>Cotton</item>
+			<item>Lumber</item>
+		</string-array>
+		<string-array name="metal">
+			<item>Gold</item>
+			<item>Silver</item>
+			<item>Platinum</item>
+			<item>Palladium</item>
+			<item>Copper</item>
+		</string-array>
+		<string-array name="energy">
+			<item>Oil</item>
+			<item>Brent</item>
+			<item>Nat Gas</item>
+			<item>RBOB Gas</item>
+			<item>ULSH HO</item>
+			<item>Ethanol</item>
+			<item>Uranuim</item>
+		</string-array>
+	</resources>

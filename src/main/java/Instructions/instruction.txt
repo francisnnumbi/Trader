@@ -1,0 +1,26 @@
+								TRADER GAME
+
+INTRODUCTION
+A business man goes to the bank to get a loan.
+The bank gives him a loan and fixes the date of first and
+last payment, and the interest rate (simple interest rate).
+based on that info, they calculate the amount of down
+payment.
+
+At the commodity Stock Market, prices of goods are fixed and
+they change every minute. On the board, a list of articles
+are put with their buying and selling prices. The trader
+decides to either buy or sell. The quantity bought depends on
+the availability of money in the bank account. The quantity sold
+depends on the availability of stock.
+
+BUYING PRICE
+When goods are bought at different prices, their arithmetical
+average is calculated to find a common buying price used to calculate
+the benefit at the time of sales.
+
+TIME INTERVAL
+1 minute is considered 1 day. it can be put at fast forward (x2 or x3).
+Hour, minutes and seconds will be programmed accordingly.
+
+
